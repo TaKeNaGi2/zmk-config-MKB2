@@ -28,7 +28,7 @@
         minus_jis: minus_jis_macro{
             compatible = "zmk,behavior-mod-morph";
             label="MINUS_JIS";
-            bindings = <&kp MINUS>,<&kp EQUAL>;
+            bindings = <&kp MINUS> m<&kp EQUAL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -49,14 +49,14 @@
         tab_dele:tab_dele{
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_DELE";
-            bindings <&kp L>;
+            bindings = <&kp L>;
             mods = <(MOD_LCTRL)>;
         };
 
         all_close:all_close{
             compatible = "zmk,behavior-mod-morph";
             label = "ALL_CLOSE";
-            bindings <&kp D>;
+            bindings = <&kp D>;
             mods = <(MOD_LGUI)>;
         };
 
@@ -70,6 +70,12 @@
         space_lay1:space_lay1{
             compatible = "zmk,behavior-hold-tap";
             bindings = <&lt NUM SPACE &mo 1>;
+            timeout-ms = <HOLDTAP_TIMEOUT>;
+            quick-tap-ms = <HOLDTAP_QUICK>;
+        };
+            esc_alt:esc_alt{
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp ESC &kp LALT>;
             timeout-ms = <HOLDTAP_TIMEOUT>;
             quick-tap-ms = <HOLDTAP_QUICK>;
         };
@@ -171,3 +177,4 @@
         };
     };
 };
+
