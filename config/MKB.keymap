@@ -10,7 +10,7 @@
 #define DEF 0
 #define FUNC 1
 #define NUM 2
-#define MOUSE 3
+#define SYMBOL 3
 #define SCROLL 4
 #define BT 5
 
@@ -103,3 +103,4 @@
         };
     };
 };
+
