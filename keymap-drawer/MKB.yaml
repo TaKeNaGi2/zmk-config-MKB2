@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - TAB
+  - Sft+Ctl+T
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - {t: SEMI, h: BT}
+  - Ctl+Alt+RIGHT
   - A
   - S
   - D
@@ -23,217 +23,217 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - SQT
-  - LSHFT
+  - MINUS
+  - COMMA
+  - Ctl+W
   - Z
   - X
   - C
   - V
   - B
   - N
-  - M
-  - COMMA
+  - {t: M, h: Scr}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB4'
   - DOT
-  - UP
-  - FSLH
-  - {t: ESC, h: LCTL}
-  - LGUI
-  - LALT
-  - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  - {t: ESC, h: LEFT ALT}
+  - {t: TAB, h: Ctl+LEFT SHIFT}
+  - {t: TAB, h: LEFT CONTROL}
+  - {t: Alt+GRAVE, h: LSHIFT}
+  - {t: SPACE, h: Symbol}
+  - BSPC
+  - {t: KP ENTER, h: Num}
+  - '&mkp MB3'
+  - '&mkp MB5'
+  - Sft+Ctl+S
+  - {t: PG DN, h: Fnc}
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DEL
+  - LEFT
+  - UP
+  - LEFT GUI
+  - DOWN
+  - RIGHT
   - A
   - B
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
+  - ''
+  - ''
+  - ''
+  - Ctl+V
+  - Ctl+X
+  - PSCRN
+  - ''
+  - F10
+  - F11
+  - F12
+  - ''
   - F4
-  - F5
-  - {t: ▽, type: trans}
-  - '&tog_ls'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
-  - {t: ▽, type: trans}
-  - F6
+  - ''
+  - Alt+A
+  - Ctl+C
+  - Ctl+Z
+  - Ctl+Y
+  - Ctl+Y
+  - ''
   - F7
   - F8
   - F9
-  - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BKSP
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F11
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  - ''
+  - F3
+  - ''
+  - Ctl+B
+  - ''
+  - Ctl+D
+  - Ctl+A
+  - Ctl+S
+  - ''
+  - F2
+  - F5
+  - F6
+  - ''
+  - F1
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: PG DN, type: held}
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DELETE
+  - LEFT
+  - UP
+  - LEFT GUI
+  - DOWN
+  - RIGHT
   - A
   - B
   Num:
-  - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - ''
+  - ''
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - MINUS
+  - STAR
+  - SLASH
+  - LEFT
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+R
+  - '4'
+  - '5'
+  - '6'
+  - PLUS
+  - Gui+D
+  - LEFT
+  - DOWN
+  - RIGHT
   - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
+  - Alt+A
   - {t: SPACE, h: LSHFT}
   - BACKSPACE
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - DOT
+  - ''
   - LEFT
-  - UP
-  - SPACE
   - DOWN
   - RIGHT
+  - ''
+  - ''
+  - ''
+  - ENTER
+  - ''
+  - '0'
+  - BACKSPACE
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - PG DN
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DELETE
+  - LEFT
+  - UP
+  - ENTER
+  - DOWN
+  - RIGHT
   - A
   - B
-  Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  Symbol:
+  - ''
+  - ''
+  - TILDE
+  - SQT
+  - DQT
+  - STAR
+  - SLASH
+  - LBRC
+  - RBRC
+  - '!'
+  - QMARK
+  - ''
+  - ''
+  - PRCNT
+  - HASH
+  - AMPS
+  - PIPE
+  - DLLR
+  - BACKSLASH
+  - LBKT
+  - RBKT
+  - SEMI
+  - COLON
+  - UNDER
+  - ''
+  - ''
+  - CARET
+  - GRAVE
+  - DQT
+  - DOT
+  - AT
+  - LPAR
+  - RPAR
+  - LT
+  - GT
+  - UNDER
+  - ''
+  - ''
+  - LEFT ALT
+  - ''
+  - {type: held}
+  - BACKSPACE
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - PG DN
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DEL
+  - LEFT
+  - UP
+  - LEFT GUI
+  - DOWN
+  - RIGHT
   - A
   - B
   Scr:
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -307,8 +307,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
