@@ -177,63 +177,63 @@ layers:
   - RIGHT
   - A
   - B
-  Symbol:
-  - ''
-  - ''
-  - TILDE
-  - SQT
-  - DQT
-  - STAR
-  - SLASH
-  - LBRC
-  - RBRC
-  - '!'
-  - QMARK
-  - ''
-  - ''
-  - PRCNT
-  - HASH
-  - AMPS
-  - PIPE
-  - DLLR
-  - BACKSLASH
-  - LBKT
-  - RBKT
-  - SEMI
-  - COLON
-  - UNDER
-  - ''
-  - ''
-  - CARET
-  - GRAVE
-  - DQT
-  - DOT
-  - AT
-  - LPAR
-  - RPAR
-  - LT
-  - GT
-  - UNDER
-  - ''
-  - ''
-  - LEFT ALT
-  - ''
-  - {type: held}
-  - BACKSPACE
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - PG DN
-  - HOME
-  - PG UP
-  - END
-  - DEL
+  Mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - LEFT
   - UP
-  - LEFT GUI
+  - SPACE
   - DOWN
   - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
   - A
   - B
   Scr:
@@ -270,8 +270,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '&mkp MB1'
-  - '&mkp MB3'
   - '&mkp MB2'
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -280,8 +280,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - LEFT
   - UP
@@ -352,5 +352,64 @@ layers:
   - ENTER
   - PG DN
   - END
+  - A
+  - B
+  Symbol:
+  - ''
+  - ''
+  - TILDE
+  - SQT
+  - DQT
+  - STAR
+  - SLASH
+  - LBRC
+  - RBRC
+  - '!'
+  - QMARK
+  - ''
+  - ''
+  - PRCNT
+  - HASH
+  - AMPS
+  - PIPE
+  - DLLR
+  - BACKSLASH
+  - LBKT
+  - RBKT
+  - SEMI
+  - COLON
+  - UNDER
+  - ''
+  - ''
+  - CARET
+  - GRAVE
+  - DQT
+  - DOT
+  - AT
+  - LPAR
+  - RPAR
+  - LT
+  - GT
+  - UNDER
+  - ''
+  - ''
+  - LEFT ALT
+  - ''
+  - {type: held}
+  - BACKSPACE
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - PG DN
+  - HOME
+  - PG UP
+  - END
+  - DEL
+  - LEFT
+  - UP
+  - LEFT GUI
+  - DOWN
+  - RIGHT
   - A
   - B
