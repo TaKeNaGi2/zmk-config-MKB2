@@ -1,5 +1,6 @@
 // #include <layout_shift.dtsi>
 
+
 #include <layout_shift_kp_override.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -7,10 +8,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEF 0
-#define FUNC 1
+#define MSCROLL 1
 #define NUM 2
 #define MOUSE 3
-#define SCROLL 4
+#define FUNC 4
 #define BT 5
 #define SYMBOL 6
 
@@ -25,22 +26,22 @@
 &kp LC(LA(RIGHT))  &kp A                   &kp S                 &kp D    &kp F                 &kp G            &kp H     &kp J           &kp K     &kp L         &kp MINUS  &kp COMMA
 &kp LC(W)          &kp Z                   &kp X                 &kp C    &kp V                 &kp B            &kp N     &lt 1 M         &mkp MB1  &mkp MB2      &mkp MB4   &kp DOT
 &mt LEFT_ALT ESC   &mt LC(LEFT_SHIFT) TAB  &mt LEFT_CONTROL TAB           &mt LSHIFT LA(GRAVE)  &lt 6 SPACE      &kp BSPC  &lt 2 KP_ENTER            &mkp MB3      &mkp MB5   &kp LS(LC(S))
-&lt 1 PG_DN        &kp HOME                &kp PG_UP             &kp END  &kp DEL                                          &kp LEFT        &kp UP    &kp LEFT_GUI  &kp DOWN   &kp RIGHT
+&lt 4 PG_DN        &kp HOME                &kp PG_UP             &kp END  &kp DEL                                          &kp LEFT        &kp UP    &kp LEFT_GUI  &kp DOWN   &kp RIGHT
                                                                  &kp A                                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        function_layer {
-            label = "Fnc";
+        mousescroll_layer {
+            label = "Scr";
             bindings = <
-&none      &none      &none      &kp LC(V)  &kp LC(X)   &kp PSCRN      &none  &kp F10   &kp F11  &kp F12       &none     &kp F4
-&none      &kp LA(A)  &kp LC(C)  &kp LC(Z)  &kp LC(Y)   &kp LC(Y)      &none  &kp F7    &kp F8   &kp F9        &none     &kp F3
-&none      &kp LC(B)  &none      &kp LC(D)  &kp LC(A)   &kp LC(S)      &none  &kp F2    &kp F5   &kp F6        &none     &kp F1
-&none      &none      &none                 &none       &none          &none  &none              &none         &none     &none
-&kp PG_DN  &kp HOME   &kp PG_UP  &kp END    &kp DELETE                        &kp LEFT  &kp UP   &kp LEFT_GUI  &kp DOWN  &kp RIGHT
-                                 &kp A                                                  &kp B
+&none     &none   &none      &none     &none      &none      &none  &none     &none      &none      &none      &none
+&none     &none   &none      &none     &none      &none      &none  &none     &none      &none      &none      &none
+&none     &none   &none      &none     &none      &none      &none  &none     &mkp MB1   &mkp MB2   &mkp MB4   &none
+&none     &none   &none                &none      &none      &none  &none                &mkp MB3   &mkp MB5   &none
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                    &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                             &kp A                                            &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -74,15 +75,15 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        scroll_layer {
-            label = "Scr";
+        function_layer {
+            label = "Fnc";
             bindings = <
-&none     &none   &none      &none     &none      &none      &none  &none     &none      &none      &none      &none
-&none     &none   &none      &none     &none      &none      &none  &none     &none      &none      &none      &none
-&none     &none   &none      &none     &none      &none      &none  &none     &mkp MB1   &mkp MB2   &mkp MB4   &none
-&none     &none   &none                &none      &none      &none  &none                &mkp MB3   &mkp MB5   &none
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                    &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                             &kp A                                            &kp B
+&none      &none      &none      &kp LC(V)  &kp LC(X)   &kp PSCRN      &none  &kp F10   &kp F11  &kp F12       &none     &kp F4
+&none      &kp LA(A)  &kp LC(C)  &kp LC(Z)  &kp LC(Y)   &kp LC(Y)      &none  &kp F7    &kp F8   &kp F9        &none     &kp F3
+&none      &kp LC(B)  &none      &kp LC(D)  &kp LC(A)   &kp LC(S)      &none  &kp F2    &kp F5   &kp F6        &none     &kp F1
+&none      &none      &none                 &none       &none          &none  &none              &none         &none     &none
+&kp PG_DN  &kp HOME   &kp PG_UP  &kp END    &kp DELETE                        &kp LEFT  &kp UP   &kp LEFT_GUI  &kp DOWN  &kp RIGHT
+                                 &kp A                                                  &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
