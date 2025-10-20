@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: Fnc}
+  - {t: M, h: Scr}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB4'
@@ -59,43 +59,7 @@ layers:
   - RIGHT
   - A
   - B
-  Fnc:
-  - ''
-  - ''
-  - ''
-  - Ctl+V
-  - Ctl+X
-  - PSCRN
-  - ''
-  - F10
-  - F11
-  - F12
-  - ''
-  - F4
-  - ''
-  - Alt+A
-  - Ctl+C
-  - Ctl+Z
-  - Ctl+Y
-  - Ctl+Y
-  - ''
-  - F7
-  - F8
-  - F9
-  - ''
-  - F3
-  - ''
-  - Ctl+B
-  - ''
-  - Ctl+D
-  - Ctl+A
-  - Ctl+S
-  - ''
-  - {t: F2, type: held}
-  - F5
-  - F6
-  - ''
-  - F1
+  Scr:
   - ''
   - ''
   - ''
@@ -106,16 +70,52 @@ layers:
   - ''
   - ''
   - ''
-  - PG DN
-  - HOME
-  - PG UP
-  - END
-  - DELETE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB4'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB3'
+  - '&mkp MB5'
+  - ''
   - LEFT
   - UP
-  - LEFT GUI
+  - SPACE
   - DOWN
   - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
   - A
   - B
   Num:
@@ -179,8 +179,65 @@ layers:
   - B
   Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Ctl+V, Ctl+C, Ctl+X, Ctl+A, '', '', '', '', '', '', '', '', '', '&mkp MB1',
     '&mkp MB2', '&mkp MB4', '', '', '', '', '', '', '', '', '&mkp MB3', '&mkp MB5', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
-  Scr: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&mkp MB1', '&mkp MB2', '&mkp
-      MB4', '', '', '', '', '', '', '', '', '&mkp MB3', '&mkp MB5', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
+  Fnc:
+  - ''
+  - ''
+  - ''
+  - Ctl+V
+  - Ctl+X
+  - PSCRN
+  - ''
+  - F10
+  - F11
+  - F12
+  - ''
+  - F4
+  - ''
+  - Alt+A
+  - Ctl+C
+  - Ctl+Z
+  - Ctl+Y
+  - Ctl+Y
+  - ''
+  - F7
+  - F8
+  - F9
+  - ''
+  - F3
+  - ''
+  - Ctl+B
+  - ''
+  - Ctl+D
+  - Ctl+A
+  - Ctl+S
+  - ''
+  - F2
+  - F5
+  - F6
+  - ''
+  - F1
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: PG DN, type: held}
+  - HOME
+  - PG UP
+  - END
+  - DELETE
+  - LEFT
+  - UP
+  - LEFT GUI
+  - DOWN
+  - RIGHT
+  - A
+  - B
   BT:
   - BT CLR
   - BT CLR ALL
