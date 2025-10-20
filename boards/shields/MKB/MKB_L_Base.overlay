@@ -47,7 +47,7 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>, <&zip_temp_layer 3 700>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>/*, <&zip_temp_layer 3 700>*/;
 
         scroll {
             layers = <1>;
@@ -149,3 +149,4 @@
         prechargep = <0x22>;
     };
 };
+
