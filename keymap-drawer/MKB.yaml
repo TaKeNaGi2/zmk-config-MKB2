@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: Scr}
+  - {t: M, h: Fnc}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB4'
@@ -91,7 +91,7 @@ layers:
   - Ctl+A
   - Ctl+S
   - ''
-  - F2
+  - {t: F2, type: held}
   - F5
   - F6
   - ''
@@ -106,7 +106,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: PG DN, type: held}
+  - PG DN
   - HOME
   - PG UP
   - END
@@ -179,65 +179,8 @@ layers:
   - B
   Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Ctl+V, Ctl+C, Ctl+X, Ctl+A, '', '', '', '', '', '', '', '', '', '&mkp MB1',
     '&mkp MB2', '&mkp MB4', '', '', '', '', '', '', '', '', '&mkp MB3', '&mkp MB5', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
-  Scr:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB4'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB3'
-  - '&mkp MB5'
-  - ''
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
+  Scr: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&mkp MB1', '&mkp MB2', '&mkp
+      MB4', '', '', '', '', '', '', '', '', '&mkp MB3', '&mkp MB5', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   BT:
   - BT CLR
   - BT CLR ALL
