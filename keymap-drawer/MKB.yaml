@@ -128,7 +128,7 @@ layers:
   - SLASH
   - LEFT
   - UP
-  - ''
+  - RIGHT
   - ''
   - ''
   - ''
@@ -139,7 +139,7 @@ layers:
   - PLUS
   - Gui+D
   - LEFT
-  - DOWN
+  - UP
   - RIGHT
   - EQUAL
   - Alt+A
