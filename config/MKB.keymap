@@ -1,6 +1,5 @@
 // #include <layout_shift.dtsi>
 
-
 #include <layout_shift_kp_override.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -57,8 +56,8 @@
         num_layer {
             label = "Num";
             bindings = <
-&none            &none          &kp N7     &kp N8   &kp N9      &kp STAR           &kp SLASH  &kp LEFT  &kp UP    &none      &none      &none
-&none            &kp LG(R)      &kp N4     &kp N5   &kp N6      &kp PLUS           &kp LG(D)  &kp LEFT  &kp DOWN  &kp RIGHT  &kp EQUAL  &kp LA(A)
+&none            &none          &kp N7     &kp N8   &kp N9      &kp STAR           &kp SLASH  &kp LEFT  &kp UP    &kp RIGHT  &none      &none
+&none            &kp LG(R)      &kp N4     &kp N5   &kp N6      &kp PLUS           &kp LG(D)  &kp LEFT  &kp UP    &kp RIGHT  &kp EQUAL  &kp LA(A)
 &mt LSHFT SPACE  &kp BACKSPACE  &kp N1     &kp N2   &kp N3      &kp DOT            &none      &kp LEFT  &kp DOWN  &kp RIGHT  &none      &none
 &none            &kp ENTER      &none               &kp N0      &kp BACKSPACE      &none      &none               &none      &none      &none
 &kp PG_DN        &kp HOME       &kp PG_UP  &kp END  &kp DELETE                                &kp LEFT  &kp UP    &kp ENTER  &kp DOWN   &kp RIGHT
@@ -125,4 +124,3 @@
         };
     };
 };
-
