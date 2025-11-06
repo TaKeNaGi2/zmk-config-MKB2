@@ -6,13 +6,13 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: BT}
   - Y
   - U
   - I
   - O
   - P
-  - {t: SEMI, h: BT}
+  - SEMI
   - Ctl+Alt+RIGHT
   - A
   - S
@@ -118,65 +118,6 @@ layers:
   - END
   - A
   - B
-  Num:
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - STAR
-  - SLASH
-  - LEFT
-  - UP
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - Gui+R
-  - '4'
-  - '5'
-  - '6'
-  - PLUS
-  - Gui+D
-  - LEFT
-  - UP
-  - RIGHT
-  - EQUAL
-  - Alt+A
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - '1'
-  - '2'
-  - '3'
-  - DOT
-  - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ENTER
-  - ''
-  - '0'
-  - BACKSPACE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PG DN
-  - HOME
-  - PG UP
-  - END
-  - DELETE
-  - LEFT
-  - UP
-  - ENTER
-  - DOWN
-  - RIGHT
-  - A
-  - B
   Mouse: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Ctl+V, Ctl+C, Ctl+X, Ctl+A, '', '', '', '', '', '', '', '', '', '&mkp MB1',
     '&mkp MB2', '&mkp MB4', '', '', '', '', '', '', '', '', '&mkp MB3', '&mkp MB5', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   Fnc:
@@ -241,16 +182,16 @@ layers:
   BT:
   - BT CLR
   - BT CLR ALL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
