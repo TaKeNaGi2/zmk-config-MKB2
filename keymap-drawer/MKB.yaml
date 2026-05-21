@@ -126,9 +126,9 @@ layers:
   - '9'
   - STAR
   - SLASH
-  - LEFT
+  - Alt+A
   - UP
-  - RIGHT
+  - Sft+Ctl+T
   - Alt+A
   - Alt+A
   - ''
@@ -153,7 +153,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - RIGHT
+  - Ctl+W
   - RCTRL
   - {t: ESC, h: LEFT ALT}
   - ''
