@@ -89,12 +89,12 @@
         bt_layer {
             label = "BT";
             bindings = <
-&bt BT_CLR  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &none           &none  &none     &none      &none      &none      &none
-&none       &none           &none         &none         &none           &none           &none  &none     &none      &none      &none      &none
-&none       &none           &none         &none         &none           &none           &none  &none     &none      &none      &none      &none
-&none       &none           &none                       &bt BT_CLR_ALL  &bt BT_CLR      &none  &none                &none      &none      &none
-&kp LEFT    &kp UP          &kp SPACE     &kp DOWN      &kp RIGHT                              &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                          &kp A                                                          &kp B
+&none     &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &none  &none     &none      &none      &none      &none
+&none     &none   &none         &none         &none           &none             &none  &none     &none      &none      &none      &none
+&none     &none   &none         &none         &none           &none             &none  &none     &none      &none      &none      &none
+&none     &none   &none                       &bt BT_CLR_ALL  &bt BT_CLR        &none  &none                &none      &none      &none
+&kp LEFT  &kp UP  &kp SPACE     &kp DOWN      &kp RIGHT                                &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                            &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
