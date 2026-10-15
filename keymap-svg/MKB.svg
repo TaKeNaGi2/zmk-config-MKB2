@@ -990,15 +990,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="layer layer-bt_layer" transform="translate(0 1532)">
 <text class="title" x="30" y="10">BT</text>
 <text class="subtitle" x="30" y="28">58 bindings</text>
-<g class="key keypos-0 " transform="translate(30 64) rotate(0 0 0)">
+<g class="key keypos-0 none" transform="translate(30 64) rotate(0 0 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">BT_CLR</text>
-<text class="hold" x="26" y="37">BT</text>
+<text class="tap" x="26" y="26">NONE</text>
 </g>
-<g class="key keypos-1 " transform="translate(82 64) rotate(0 -52 0)">
+<g class="key keypos-1 none" transform="translate(82 64) rotate(0 -52 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="20">BT_CLR_ALL</text>
-<text class="hold" x="26" y="37">BT</text>
+<text class="tap" x="26" y="26">NONE</text>
 </g>
 <g class="key keypos-2 " transform="translate(134 64) rotate(0 -104 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
@@ -1015,9 +1013,10 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <text class="tap" x="26" y="20">BT_SEL 2</text>
 <text class="hold" x="26" y="37">BT</text>
 </g>
-<g class="key keypos-5 none" transform="translate(290 64) rotate(0 -260 0)">
+<g class="key keypos-5 " transform="translate(290 64) rotate(0 -260 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
-<text class="tap" x="26" y="26">NONE</text>
+<text class="tap" x="26" y="20">BT_SEL 3</text>
+<text class="hold" x="26" y="37">BT</text>
 </g>
 <g class="key keypos-6 none" transform="translate(602 64) rotate(0 -572 0)">
 <rect x="0" y="0" width="52" height="52" rx="6" ry="6"/>
