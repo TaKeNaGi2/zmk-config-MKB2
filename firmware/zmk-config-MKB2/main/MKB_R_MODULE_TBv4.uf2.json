@@ -5,7 +5,7 @@
   },
   "generated": {
     ".config": "f9434e07e5a618cacc88e50dd9d9862577c57822e2d13d220ebe4b6ad05a6457",
-    "zephyr.dts": "3f762d6016c87a300bdcdb4323bd0d4ef1894b98a6c88dc445ab33269e2d3aac"
+    "zephyr.dts": "4aa7e4b9a6c6b1a0e7ad762e55dbdac9de0fc35db7489942d4994e09a627ae6b"
   },
   "inputs": {
     "dependencies": {
@@ -323,7 +323,7 @@
       }
     },
     "source": {
-      "commit": "74c52b907ff93d11c0634c9b013eaa2320d1a280",
+      "commit": "727948823a987a950818898edba89ff1d7c6c0ad",
       "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "dirty": false,
       "untracked": {}
@@ -335,7 +335,7 @@
       "untracked": {}
     }
   },
-  "run_id": "38815281385",
+  "run_id": "38818284272",
   "schema": 1,
   "target": {
     "artifact-name": "MKB_R_MODULE_TBv4",
