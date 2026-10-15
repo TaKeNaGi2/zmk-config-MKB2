@@ -12,7 +12,6 @@
 #define FUNC 3
 #define BT 4
 #define SYMBOL 5
-#define NUM 6
 
 &mt {
     flavor = "balanced";
